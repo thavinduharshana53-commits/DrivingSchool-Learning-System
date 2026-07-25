@@ -1,0 +1,130 @@
+
+body{
+  font-family:"Poppins", sans-serif;
+  background: linear-gradient(135deg, #03045e, #c2e9fb);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+h2{
+  text-align: center;
+  color:#03045e;
+  font-size: 1.9rem;
+}
+
+.register{
+  display: block;
+  width: 30%;
+  border: 0px solid rgba(0, 0, 0, 0.232);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 10px 40px 10px 40px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  background-color: rgba(255, 255, 255, 0.55);
+}
+
+div label{
+  display: block;
+  font-size: 1rem;
+}
+
+input {
+  width: 95%;
+  padding: 14px;
+  margin: 8px 0px 10px 0px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  outline: none;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+input:focus{
+  box-shadow: 0 0 0 2px #03045e;
+  
+}
+
+input[type="submit"]{
+  width: 102%;
+  background-color: #03045e;
+  font-size: 16px;
+  color: whitesmoke;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: 0.3s ease;
+}
+
+div p{
+  text-align: center;
+  font-size: 1rem;
+}
+
+a{
+  color: #03045e;
+}
+
+input[type="submit"]:hover{
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(58, 123, 213, 0.4);
+  background: linear-gradient(135deg, #c2e9fb,#03045e);
+}
+
+/* if registrtion failed */
+.reg_failed {
+  background-color: #f8d7da;
+  color: #721c24;
+  font-size: 0.89rem;
+  padding: 2px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+    .register {
+        width: 60%; 
+        padding: 25px 30px; 
+    }
+
+    h2 {
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        height: auto;
+        min-height: 100vh;
+        padding: 20px 0;
+    }
+
+    .register {
+        width: 75%; 
+        padding: 20px;
+        border-radius: 10px; 
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1); 
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    input {
+        width: 93%;
+        padding: 12px;
+        font-size: 14px;
+    }
+    
+    input[type="submit"]{
+        width: 100%;
+        font-size: 15px;
+    }
+
+    div label {
+        font-size: 0.95rem;
+    }
+}

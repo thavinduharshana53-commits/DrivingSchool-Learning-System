@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Simple decorative driving school illustration -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#90e0ef"/>
+      <stop offset="100%" stop-color="#caf0f8"/>
+    </linearGradient>
+    <linearGradient id="carGrad" x1="0" x2="1">
+      <stop offset="0%" stop-color="#0077b6"/>
+      <stop offset="100%" stop-color="#03045e"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="b"/>
+      <feBlend in="SourceGraphic" in2="b"/>
+    </filter>
+  </defs>
+
+  <!-- background sky -->
+  <rect x="0" y="0" width="900" height="600" fill="url(#sky)"/>
+
+  <!-- distant hills -->
+  <path d="M0 420 C150 360 300 360 450 420 C600 480 750 460 900 420 L900 600 L0 600 Z" fill="#90e0ef" opacity="0.25"/>
+
+  <!-- road -->
+  <rect x="0" y="420" width="900" height="140" fill="#1b262c"/>
+  <rect x="0" y="452" width="900" height="20" fill="#2b2b2b"/>
+  <!-- dashed center line -->
+  <g stroke="#ffd166" stroke-width="8" stroke-linecap="round">
+    <path d="M60 490 L180 490" />
+    <path d="M240 490 L360 490" />
+    <path d="M420 490 L540 490" />
+    <path d="M600 490 L720 490" />
+    <path d="M780 490 L860 490" />
+  </g>
+
+  <!-- car (student car) -->
+  <g transform="translate(160,360) scale(1.15)">
+    <rect x="0" y="10" width="220" height="70" rx="14" fill="url(#carGrad)"/>
+    <rect x="20" y="-10" width="180" height="60" rx="12" fill="#caf0f8" opacity="0.08"/>
+    <circle cx="46" cy="86" r="22" fill="#222" />
+    <circle cx="174" cy="86" r="22" fill="#222" />
+    <circle cx="46" cy="86" r="14" fill="#f8f9fa" />
+    <circle cx="174" cy="86" r="14" fill="#f8f9fa" />
+    <!-- 'L' plate for learner -->
+    <rect x="182" y="0" width="28" height="34" rx="4" fill="#ffd166"/>
+    <text x="196" y="25" font-size="20" font-weight="700" fill="#03045e" text-anchor="middle" font-family="Segoe UI">L</text>
+  </g>
+
+  <!-- instructor / student icons as simple figures -->
+  <g transform="translate(460,320)">
+    <circle cx="40" cy="10" r="18" fill="#fff" opacity="0.95"/>
+    <rect x="10" y="40" width="60" height="40" rx="12" fill="#fff" opacity="0.95"/>
+    <text x="40" y="66" font-size="14" text-anchor="middle" fill="#03045e" font-family="Segoe UI">Instructor</text>
+  </g>
+
+  <!-- sign / pin -->
+  <g transform="translate(640,280)">
+    <circle cx="0" cy="0" r="36" fill="#48cae4" opacity="0.95"/>
+    <text x="0" y="6" font-size="18" text-anchor="middle" fill="#03045e" font-weight="700" font-family="Segoe UI">Go</text>
+  </g>
+
+  <!-- decorative subtle shadow blur for depth -->
+  <ellipse cx="300" cy="512" rx="240" ry="28" fill="#000" opacity="0.06" filter="url(#soft)"/>
+
+  <!-- title hint inside svg (decorative) -->
+  <text x="40" y="110" font-size="28" fill="#03045e" font-weight="700" font-family="Segoe UI">Driving School</text>
+  <text x="40" y="140" font-size="16" fill="#023e8a" opacity="0.9" font-family="Segoe UI">Learn with certified instructors</text>
+
+</svg>

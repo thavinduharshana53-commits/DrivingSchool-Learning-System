@@ -1,0 +1,387 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f5f9ff;
+  margin: 0;
+}
+
+h1 {
+  margin-top: 30px;
+  text-align: center;
+  color: #03045e;
+  font-size: 2.5rem;
+}
+
+p {
+  text-align: center;
+  color: #00000e9a;
+  font-size: 1.2rem;
+}
+
+.signs-card {
+  display: grid;
+  grid-template-columns: 375px 375px 375px;
+  justify-content: center;
+  height: 650px;
+  padding: 10px;
+  gap: 30px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.signs_1,
+.signs_2,
+.signs_3,
+.signs_4,
+.signs_5 {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  background-color: white;
+  border-radius: 8px;
+  transition: 0.3s ease;
+  padding: 10px;
+}
+
+.signs_1 {
+  border-top: 6px solid #f39c12;
+}
+
+.signs_2 {
+  border-top: 6px solid #4a4a4a;
+}
+
+.signs_3 {
+  border-top: 6px solid red;
+}
+
+.signs_4 {
+  border-top: 6px solid #3498db;
+}
+
+.signs_5 {
+  border-top: 6px solid orangered;
+}
+
+.signs_1:hover,
+.signs_2:hover,
+.signs_3:hover,
+.signs_4:hover,
+.signs_5:hover {
+  cursor: pointer;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+  border: 1px solid #03045e;
+}
+
+span {
+  display: block;
+  height: 80px;
+  line-height: 1.5;
+  text-align: left;
+  margin: 10px 0px 15px 15px;
+  color: rgba(0, 0, 0, 0.694);
+}
+
+a {
+  display: block;
+  width: 70%;
+  padding: 10px;
+  font-weight: 500;
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 55px 0px 0px 15px;
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;
+}
+
+.signs_1 a {
+  background-color: #f39c12;
+}
+
+.signs_2 a {
+  background-color: #4a4a4a;
+}
+
+.signs_3 a {
+  background-color: red;
+}
+
+.signs_4 a {
+  background-color: #3498db;
+}
+
+.signs_5 a {
+  background-color: orangered;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.signs_1 a:hover {
+  background-color: rgba(255, 255, 0, 0.321);
+  border: 1.5px solid #d68910;
+  color: #d68910;
+}
+
+.signs_2 a:hover {
+  background-color: #e5e3e3d1;
+  border: 1.5px solid #4a4a4a;
+  color: #4a4a4a;
+}
+
+.signs_3 a:hover {
+  background-color: #f8bdbd;
+  border: 1.5px solid red;
+  color: red;
+}
+
+.signs_4 a:hover {
+  background-color: #a9d7f5aa;
+  border: 1.5px solid #3498db;
+  color: #3498db;
+}
+
+.signs_5 a:hover {
+  background-color: rgba(252, 171, 21, 0.56);
+  border: 1.5px solid orangered;
+  color: orangered;
+}
+
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+  color: #7f8c8d;
+  font-size: 0.9rem;
+}
+
+.btn2-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 40px;
+}
+
+.btn2 a {
+  display: inline-block;
+  width: 200px;
+  background-color: #03045e;
+  text-align: center;
+  margin-top: 5px;
+  padding: 10px;
+  font-weight: 500;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(3, 4, 94, 0.4);
+  font-size: 1.2rem;
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+
+.btn2 a:hover {
+  cursor: pointer;
+  transform: translateY(-4px);
+}
+
+.test_quiz {
+  background-color: white;
+  border-radius: 12px;
+  height: 220px;
+  padding: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  margin: 60px;
+}
+
+.test_quiz h2 {
+  color: #03045e;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.test_quiz p {
+  color: #7f8c8d;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.test_quiz a {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  background-color: #03045e;
+  color: white;
+  text-align: center;
+  padding: 12px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.test_quiz a:hover {
+  background-color: #0909a0;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px;
+  border-top: 1px solid #ddd;
+  color: #3e45459c;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 1200px) {
+  .signs-card {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+  }
+
+  .test_quiz {
+    margin: 40px 30px;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+}
+
+
+@media (max-width: 900px) {
+  .signs-card {
+    grid-template-columns: 1fr;
+    max-width: 500px;
+    gap: 25px;
+  }
+
+  .btn2-wrapper {
+    justify-content: center;
+    margin-right: 0;
+    margin-top: 20px;
+  }
+
+  .btn2 a {
+    width: 180px;
+    font-size: 1.1rem;
+  }
+
+  .test_quiz {
+    margin: 40px 20px;
+    padding: 20px;
+  }
+
+  .test_quiz h2 {
+    font-size: 1.8rem;
+  }
+
+  .test_quiz p {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .signs-card {
+    max-width: 350px;
+    gap: 20px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+    margin-top: 20px;
+  }
+
+  p {
+    font-size: 1rem;
+    padding: 0 15px;
+  }
+
+  .signs_1,
+  .signs_2,
+  .signs_3,
+  .signs_4,
+  .signs_5 {
+    padding: 15px;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  span {
+    font-size: 0.95rem;
+    margin: 10px 0 15px 10px;
+  }
+
+  a {
+    width: 85%;
+    margin: 40px auto 0;
+    font-size: 1rem;
+    padding: 12px;
+  }
+
+  .test_quiz {
+    margin: 30px 15px;
+    padding: 15px;
+  }
+
+  .test_quiz h2 {
+    font-size: 1.6rem;
+  }
+
+  .test_quiz a {
+    width: 180px;
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+
+  footer {
+    padding: 15px;
+    font-size: 0.8rem;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .signs-card {
+    max-width: 300px;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  span {
+    margin-bottom: 65px;
+  }
+
+  .test_quiz {
+    height: 250px;
+  }
+
+  .test_quiz h2 {
+    font-size: 1.4rem;
+  }
+
+  a {
+    width: 90%;
+    font-size: 0.95rem;
+  }
+}

@@ -1,0 +1,189 @@
+body {
+  font-family: Poppins, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #03045e;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.title p {
+  color: #3e3e3f;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.btn_align {
+  display: flex;
+  justify-content: center;
+}
+
+.score {
+  background-color: #e7f3ff;
+  padding: 10px 0px 10px 40px;
+  border-radius: 4px;
+  margin: 10px 0;
+}
+
+.quiz_container p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+h3 {
+  font-weight: 550;
+}
+
+.quiz_container {
+  border: 2px solid black;
+  padding: 10px 40px 10px 40px;
+  margin: 40px 0px 60px 0px;
+}
+
+.qustion {
+  display: flex;
+  justify-items: center;
+}
+
+img {
+  display: block;
+  width: 120px;
+  height: auto;
+  margin: 6px 150px 0px 100px;
+}
+
+.answers {
+  line-height: 2rem;
+  font-size: 1.1rem;
+}
+
+.qustion_card {
+  background: #e7f3ff;
+  padding: 20px 20px 25px 30px;
+  border-radius: 5px;
+  height: 210px;
+  border-left: 4px solid #007bff;
+  margin: 25px 0;
+}
+
+@media (max-width: 575.98px) {
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+
+  .qustion {
+    display: block;
+    text-align: left;
+  }
+
+  img {
+    width: 70px;
+    margin: 0 auto 10px auto;
+  }
+
+  .qustion_card {
+    height: auto;
+    padding: 15px;
+  }
+
+  .quiz_container p,
+  .answers,
+  .title p {
+    font-size: 1rem;
+  }
+
+  .btn1, .btn2 {
+    width: 100%;
+    max-width: 250px;
+    margin: 10px auto;
+    display: block;
+    font-size: 1.1rem;
+    padding: 12px;
+  }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  body {
+    padding: 15px;
+    max-width: 100%;
+  }
+
+
+  img {
+    width: 90px;
+    margin: 6px 40px 0px 40px;
+  }
+
+
+  .btn1, .btn2 {
+    width: 200px;
+    margin: 10px auto;
+    display: block;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  body {
+    max-width: 900px;
+    padding: 25px;
+  }
+
+  .btn1, .btn2 {
+    margin: 10px auto;
+    display: block;
+  }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  body {
+    max-width: 1000px;
+    padding: 30px;
+  }
+
+  body {
+    margin: 0 auto;
+  }
+
+  img {
+    margin: 6px 150px 0px 100px;
+  }
+
+  .btn {
+    margin: 10px 250px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    max-width: 950px;
+    padding: 30px;
+  }
+
+  img {
+    width: 130px;
+    height: auto;
+    margin: 6px 180px 0px 100px;
+  }
+
+  .qustion_card {
+    padding-bottom: 30px;
+  }
+
+  .btn_align {
+    display: flex;
+    justify-content: center;
+  }
+
+}

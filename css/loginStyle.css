@@ -1,0 +1,138 @@
+ body {
+     font-family: "Poppins", sans-serif;
+     display: flex;
+     background: linear-gradient(135deg, #03045e, #c2e9fb);
+     height: 100vh;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .login {
+     border: none;
+     width: 90%;
+     padding: 20px 40px 20px 40px;
+     background-color: rgba(255, 255, 255, 0.55);
+     backdrop-filter: blur(10px);
+     border-radius: 20px;
+     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+ }
+
+ h2 {
+     color: #03045e;
+ }
+
+ label {
+     display: block;
+     font-size: 1rem;
+ }
+
+ input[type="email"],
+ input[type="password"],
+ input[type="submit"] {
+     width: 93%;
+     padding: 10px;
+     margin: 5px 0px 5px 0px;
+     font-size: 16px;
+     border-radius: 10px;
+     border: none;
+     outline: none;
+     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+     transition: 0.3s ease;
+ }
+
+ input:focus {
+     box-shadow: 0 0 0 2px #03045e;
+ }
+
+ input[type="submit"] {
+     background-color: #03045e;
+     color: whitesmoke;
+     margin-top: 15px;
+     font-size: 18px;
+     width: 98%;
+     padding: 12px;
+     cursor: pointer;
+     transition: 0.3s ease;
+ }
+
+ input[type="submit"]:hover {
+     background: linear-gradient(135deg, #c2e9fb, #03045e);
+     transform: translateY(-3px);
+     box-shadow: 0 8px 20px rgba(58, 123, 213, 0.4);
+ }
+
+ p {
+     text-align: center;
+ }
+
+ a {
+     color: #03045e;
+ }
+
+
+ .login {
+     max-width: 400px;
+     width: 90%;
+     padding: 25px;
+ }
+
+
+ @media (max-width: 768px) {}
+
+ @media (max-width: 480px) {
+     body {
+         height: auto;
+         min-height: 100vh;
+         padding: 20px 0;
+     }
+
+     .login {
+         width: 95%;
+         padding: 20px 15px;
+         box-shadow: none;
+         border-radius: 10px;
+     }
+
+     h2 {
+         font-size: 1.5rem;
+     }
+
+     input[type="email"],
+     input[type="password"] {
+         width: 90%;
+         padding: 12px;
+         font-size: 15px;
+         margin: 8px 0;
+     }
+
+     input[type="submit"] {
+         width: 100%;
+         padding: 14px;
+         font-size: 16px;
+         margin-top: 20px;
+     }
+
+     p {
+         font-size: 0.95rem;
+     }
+ }
+
+ @media (max-width: 375px) {
+     .login {
+         padding: 15px 10px;
+     }
+
+     h2 {
+         font-size: 1.3rem;
+     }
+
+     input[type="email"],
+     input[type="password"] {
+         padding: 10px;
+         font-size: 14px;
+     }
+
+     input[type="submit"] {
+         font-size: 15px;
+     }
+ }

@@ -1,0 +1,108 @@
+body {
+  font-family: Poppins, sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #03045e;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.title p {
+  color: #3e3e3f;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.history {
+  background-color: #e7f3ff;
+  padding: 10px 0px 10px 40px;
+  border-radius: 4px;
+  margin: 10px 0;
+}
+
+.history p{
+  font-size: 1.2rem;
+}
+
+.medic_container {
+  border: 1px solid black;
+  padding: 30px;
+  border-radius: 5px;
+  margin: 20px 0;
+  background: #f9f9f9;
+
+}
+
+.subtitle h2{font-size: 1.8rem;}
+.subtitle p{font-size: 1.1rem;}
+
+.Q1, .Q2, .Q3, .Q4, .Q5, .Q6{
+  background-color: white;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 4px;
+  border-left: 4px solid #28a745;
+}
+
+.qustions{font-size: 1.1rem;}
+.qustions p{font-weight: bold;}
+.qustions span{font-style: italic; color: #3e3e3f;}
+
+label{
+  display: block;
+  background-color: #f9f9f9;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.btn_align{
+  display: flex;
+  text-align: center;
+}
+
+.btn{
+  padding:10px;
+  width: 250px;
+  font-size: 1.2rem;
+  background-color: #0077b6;
+  color: whitesmoke;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid #0077b6;
+  margin-right: 20px;
+}
+
+.btn2{
+  background-color:  #6c757d;
+  color:white;
+  font-size: 1.1rem;
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+}
+
+.btn:hover{
+  background-color:  #01527e;
+}
+
+.btn2:hover{
+  background-color: #43494f;
+}
+
+.Scored{
+  border: 3px solid #28a745;
+  border-radius: 4px;
+  padding: 30px;
+  margin: 20px 0;
+}
+
+.Scored ul p{font-size: rem;}
+.Scored p{font-style: italic;}
+.Scored ul{line-height: 1.5rem;}
+
+
